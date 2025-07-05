@@ -1,5 +1,5 @@
 ## rsschool-cv
-# ![My Photo] (photo.jpg)
+# ![My Photo](photo.jpg.jpg)
 # Ksenia Mikhaleva
 _Junior Fronted Developer_
 
