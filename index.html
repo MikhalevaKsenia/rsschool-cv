@@ -1,10 +1,107 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Сайт</title>
-  </head>
-  <body>
-    <h1>Привет</h1>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ksenia Mikhaleva - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      <img src="photo.jpg.jpg" alt="Profile Photo" class="profile" />
+      <h1>Ksenia Mikhaleva</h1>
+      <p style="text-align:center;">Junior Frontend Developer</p>
+    
+    <main>
+      <div class="contact-icons">
+       <div class="section-title" id="contacts"><p><strong>Contacts</strong></p></div>
+        <p><b>Telephone:</b> +7 (916) 986 31 48</p>
+        <p><b>E-mail:</b> mikhaleva.ksenia.0104@mail.ru</p>
+        <p><b>Discord:</b> Ksenia Mikhaleva(@Ksenka)</p>
+      </div>
+
+      <div class="skills">
+        <div class="section-title" id="skills"><p><strong>Skills</strong></p></div>
+        <ul>
+          <li>HTML5, CSS3</li>
+          <li>JavaScript</li>
+          <li>Git, GitHub</li>
+          <li>VS Code</li>
+        </ul>
+      </div>
+
+      <div class="languages">
+       <div class="section-title"><p><strong>Languages</strong></p></div>
+        <ul>
+          <li>Russian – Native</li>
+          <li>English – Basic</li>
+        </ul>
+      </div>
+      </main>
+    </div>
+
+    <div class="main">
+       <nav class="nav">
+  <ul class="nav-list">
+    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+  </ul>
+    </nav>
+
+      <div class="section" id="about">
+        <h2>Brifly about myself</h2>
+        <p>Aspiring fronted developer looking to build a career in web development. I have basic knowladge of HTML, CSS, JavaScript and React. Currently taking online courses and have independetly created small projects. I possess all the qualities necessary to become an experienced frontend developer.</p>
+
+      </div>
+
+      <div class="section" id="education">
+        <h2>Education</h2>
+        <p><strong>Moscow International University</strong><br>
+          Jurisprudence<br>
+          Specialization: Criminal law<br>
+          Years: 2021-2026
+        </p>
+      </div>
+
+      <div class="section" id="Courses">
+        <h2>Courses</h2>
+        <ul>
+          <li><a href="https://skillfactory.ru/?utm_source=admitad&utm_medium=cpa&utm_campaign=admitad&utm_term=regular&utm_content=2027158&admitad_uid=55f8a79ad32d429b3deb752d3a21ee5d">IT - specialist from 0 (completed)</a></li>
+          <li><a href="https://skillfactory.ru/?utm_source=admitad&utm_medium=cpa&utm_campaign=admitad&utm_term=regular&utm_content=2027158&admitad_uid=55f8a79ad32d429b3deb752d3a21ee5d">Skillfactory Profession "Fronted-developer PRO" (in progress)</a></li>
+          <li><a href="https://rs.school/">Schools «JavaScript/Front-end. Stage 0» (in progress)</a></li>
+        </ul>
+        <img src="csh.png" alt="primer" class="primer" />
+      </div>
+
+      <div class="section">
+        <h2>Code Example</h2>
+        <p>Take 2 strings s1 and s2 including only letters from a to z. Return a new sorted string (alphabetical ascending), the longest possible, containing distinct letters - each teken only once - coming from s1 or s2.</p>
+        <code>
+function longest(s1, s2) {
+  return [...new Set(s1 + s2)].sort().join('');// your code
+}
+        </code>
+      </div>
+      
+        <div>
+      <footer>
+        <a class="my-github" href="https://github.com/MikhalevaKsenia">
+        <img class="githab-icon" src="github.svg" alt="GitHub Icon" width="26" height="26">
+        </a>
+
+        <p>&#169; 2025</p>
+
+        <a href="https://rs.school/courses/javascript-ru">
+          <img src="rs-school-logo.svg" alt="Rsschool Icon" width="73" height="26">
+        </a>
+      </footer>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
